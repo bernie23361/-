@@ -1,0 +1,16 @@
+name: flutter_map_web
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.4
+
+flutter:
+  uses-material-design: true
