@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- 這裡設定基礎路徑，GitHub Action 打包時會自動修正它，不用擔心 -->
+  <!-- 基礎路徑設定 -->
+  <!-- GitHub Action 在打包時會自動將此處替換為正確的專案路徑，不用擔心 -->
   <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="OpenStreetMap Demo">
 
-  <!-- iOS meta tags & icons -->
+  <!-- iOS 相關設定 -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_map_web">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <title>Google Maps Flutter Web</title>
+  <meta name="apple-mobile-web-app-title" content="flutter_osm_web">
+  
+  <title>OpenStreetMap Demo</title>
   <link rel="manifest" href="manifest.json">
-
-  <!-- ★★★ 關鍵步驟：請將下面的 YOUR_API_KEY 替換成您的 Google Maps API Key ★★★ -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 </head>
 <body>
-  <!-- 這行腳本會啟動 Flutter 應用 -->
+  <!-- 啟動 Flutter 應用程式 -->
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
