@@ -1,5 +1,5 @@
-name: flutter_map_web
-description: A new Flutter project.
+name: flutter_osm_web
+description: A new Flutter project using OpenStreetMap.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,8 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_maps_flutter: ^2.5.0
-  google_maps_flutter_web: ^0.5.4
+  # 核心地圖套件 (OpenStreetMap)
+  flutter_map: ^6.1.0
+  # 用來處理經緯度的工具
+  latlong2: ^0.9.0
 
 flutter:
   uses-material-design: true
